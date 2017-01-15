@@ -1,0 +1,120 @@
+body {
+	background:linear-gradient(grey,black);
+	height:1200px;
+}
+a {
+	text-decoration:none;
+}
+/*Containers here:*/
+#mainContainer {
+	background-color:white;
+	width:850px;
+	height:1075px;
+	margin:auto;
+	margin-top:25px;
+	position:relative;
+	border:2px solid black;
+}
+#bodyContainer {
+	padding:10px;
+}
+/*Header & NavBar*/
+#header {
+	text-align:center;
+	position:relative;
+	background:black;
+}
+#headerImg {
+	width:850px;
+	height:150px;
+}
+#navBar {
+	height:60px;
+	background: linear-gradient(#f04444,#fb0303);
+	border-bottom:1px solid black;
+	text-align:center;
+}
+#subNavBar {
+	height:25px;
+	background:linear-gradient(grey,#565656);
+	border-bottom:1px solid black;
+	border-top:1px solid black;
+	color:white;
+	font-size:18px;
+	padding-left:10px;
+	margin-top:-20px;
+}
+.navButton {
+	width:100px;
+	height:25px;
+	margin-top:7px;
+	border-left:1.5px solid white;
+	border-right:1.5px solid white;
+	background:transparent;
+	text-align:center;
+	color:white;
+	display:inline-block;
+	font-size:18px;
+	font-family:Helvetica;
+}
+/*Body*/
+.headerTxt {
+	font-family:Helvetica;
+	color:red;
+	font-weight:bold;
+}
+.normTxt {
+	color:#272727;
+	font-size:18px;
+}
+.downloadLink {
+	color:#ff6700;
+	font-size:18px;
+	font-weight:bold;
+}
+.divider {
+	border:1.5px solid black;
+	width:400px;
+	height:1px;
+}
+/*Footer*/
+#footer {
+	height:130px;
+	width:815px;
+	top:348px;
+	position:relative;
+	background:linear-gradient(#f04444,#fb0303);
+	border-top:1px solid black;
+	color:white;
+	font-size:18px;
+	padding:10px;
+	padding-left:25px;
+	font-family:Helvetica;
+}
+#vertDiv {
+	width:2px;
+	height:55px;
+	position:relative;
+	top:-50px;
+	left:375px;
+	background:white;
+	display:inline-block;
+}
+.footerTxt {
+	position:relative;
+	display:inline-block;
+	top:-70px;
+	left:450px;
+}
+.footerButton {
+	width:50px;
+	height:50px;
+	border-radius:5px;
+	display:inline-block;
+	position:relative;
+	top:-50px;
+	left:475px;
+}
+#googleButton {
+	left:500px;
+}
